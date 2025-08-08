@@ -39,7 +39,7 @@ git clone https://github.com/antares-sec/Eltekers_HAR_YOLOv8Pose.git
 ``` python
 pip install -r requirements.txt
 ```
-Pastikan model tersedia: Pastikan file model yang diperlukan (seperti yolov8n-pose.pt, stgcn_model_cpu.pth, dan class_mapping.pkl) ada di dalam folder models/.
+Pastikan model tersedia: Pastikan file model yang diperlukan (seperti **yolov8n-pose.pt, stgcn_model_cpu.pth, dan class_mapping.pkl**) ada di dalam folder **models/**.
 
 # Cara Menjalankan API (Tanpa Frontend)
 Untuk menjalankan API saja, yang berguna untuk pengujian atau integrasi dengan aplikasi lain, gunakan perintah Uvicorn. Pastikan Anda berada di direktori utama proyek.
