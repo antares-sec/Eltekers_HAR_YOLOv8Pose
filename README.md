@@ -4,7 +4,7 @@ Proyek ini adalah implementasi dari sistem pengenalan aktivitas manusia (Human A
 # Struktur Proyek
 Struktur folder proyek ini diatur sebagai berikut:
 
-.
+``` markdown
 ├── __pycache__/
 ├── models/
 │   ├── yolov8n-pose.pt
@@ -15,6 +15,7 @@ Struktur folder proyek ini diatur sebagai berikut:
 ├── requirements.txt
 ├── README.md
 └── utils.py
+```
 
 # Penjelasan File dan Folder
 **middleware.py**: Berisi implementasi utama API menggunakan framework FastAPI. API ini menerima video, memprosesnya secara asinkron menggunakan model yang telah dilatih, dan mengembalikan video yang telah di-anotasi. Proses pemodelan dilakukan di latar belakang menggunakan multiprocessing untuk menghindari blocking pada server.
