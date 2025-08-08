@@ -30,6 +30,11 @@ Struktur folder proyek ini diatur sebagai berikut:
 # Persiapan
 Sebelum menjalankan proyek, pastikan Anda telah menginstal semua pustaka yang diperlukan.
 
+## Clone file: 
+```git
+git clone https://github.com/antares-sec/Eltekers_HAR_YOLOv8Pose.git
+```
+
 ## Instal pustaka:
 ``` python
 pip install -r requirements.txt
